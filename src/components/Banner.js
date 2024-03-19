@@ -54,7 +54,9 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact me</button>
+              <a href="mailto:ismailsoudassi00@gmail.com" className="btn btn-lg flex justify-center items-center">
+                Contact me
+              </a>
             </motion.div>
             {/* socials  */}
             <motion.div

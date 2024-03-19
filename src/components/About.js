@@ -35,7 +35,7 @@ const About = () => {
     threshold: 0.5,
   });
   return (
-    <section className="section lg:pt-32 lg:pb-0 pb-96" id="about" ref={ref}>
+    <section className="section lg:pt-32 lg:pb-0" id="about" ref={ref}>
       <div className="container mx-auto font-Roboto">
         <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen">
           <div className="lg:w-1/2 h-full px-2">

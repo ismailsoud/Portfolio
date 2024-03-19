@@ -1,7 +1,6 @@
 import React from "react";
 // components
 import Banner from "./components/Banner";
-import Header from "./components/Header";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Services from "./components/Services";
@@ -17,7 +16,7 @@ const App = () => {
       <div className="flex lg:hidden">
         <Services/>
       </div>
-      <div className="pt-52">
+      <div className="">
         <Work />
       </div>
       <div className="my-40">
